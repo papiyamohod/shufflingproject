@@ -1,3 +1,7 @@
+.main_page {
+    margin: 0 auto;
+}
+
 .all {
     display: flex;
     flex-wrap: wrap;
