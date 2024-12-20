@@ -1,26 +1,26 @@
 .main_page {
-    margin: 0 auto;
+    margin: 0 auto; 
+    text-align: center;
+
 }
 
 .all {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Add this to center the tables */
 }
 
 .all table {
-    flex: 0 0 50%;
-
-    margin: 20px;
-    margin-left: 100px;
-    margin-right: 200px;
+    flex: 0 0 50%; 
+    margin: 20px; 
     border-collapse: collapse separate;
-    border: 5px solid black;
+    border: 1px solid black;
     border-style: solid black;
-    width: 200%;
-    height: 20px;
-    empty-cells:show;
-    table-layout:auto;
-    border-radius: 12px;
+    /* Remove width: 200%; */
+    height: 20px; 
+    empty-cells: show;
+    table-layout: auto;
+    /* border-radius: 12px; */
 }
 
 th, td {
@@ -31,42 +31,45 @@ th, td {
     margin-right: 20px;
     padding: 5px 20 px;
     background: linear-gradient(to top,red);
+}
 
-    
-    
-}
-h1{
-    color:black;
-    text-align:center;
-    text-decoration:underline;
-    font-weight:Bold;
-    font-family: arial;
-    font-size:70px;
-    filter: drop-shadow(4px 4px 6px red);
-    margin-left: 200px;
-}
-th{
+th {
     background-color:goldenrod;
 
 }
-body{
+
+body {
     background-color:wheat;
 }
-td{
+
+td {
     background-color:gray;
     color:black;
-
 }
-h2{
+
+h1 {
+    display: block;
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: Bold;
+    font-family: arial;
+    font-size: 70px;
+    filter: drop-shadow(4px 4px 6px red);
+}
+
+h2 {
     color:green;
     text-align:center;
     font-weight:bold;
 }
-button{
-    margin-left: 10px;
+
+
+button {
+    display: block;
+    margin: 0 auto;
     text-align: center;
     font-size: medium;
     font-style: italic;
     background-color:palevioletred;
-    
 }
