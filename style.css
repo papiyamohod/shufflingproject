@@ -1,25 +1,23 @@
 .main_page {
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .all {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Add this to center the tables */
 }
 
 .all table {
-    flex: 0 0 50%;
-
-    margin: 20px;
-    margin-left: 100px;
-    margin-right: 200px;
+    flex: 0 0 50%; 
+    margin: 20px; 
     border-collapse: collapse separate;
     border: 5px solid black;
     border-style: solid black;
-    width: 200%;
+    /* Remove width: 200%; */
     height: 20px;
-    empty-cells:show;
-    table-layout:auto;
+    empty-cells: show;
+    table-layout: auto;
     border-radius: 12px;
 }
 
