@@ -1,9 +1,8 @@
 # Shuffling Project
-
-## About this Project
 **Author**: [Papiya Mohod](https://github.com/papiyamohod)
-**Description**: 
-This project is a simple HTML, CSS, and JavaScript web page that displays a list of people assigned to various rooms and beds. 
+
+## Description
+Hi I am Papiya Mohod I made this project which is a simple HTML, CSS, and JavaScript web page that displays a list of people assigned to various rooms and beds. 
 The main feature of this webpage is a "Shuffle" button that randomizes the names within the list while keeping the room and bed assignments static.
 
 ## Project Structure
